@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마녀공장</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<div class="wrap">
+    <header id="header">
+        <div class="h_top inner">
+            <ul class="h_left">
+                <li><a href="">로그인</a></li>
+                <li><a href="">주문배송</a></li>
+                <li><a href="">멤버십</a></li>
+                <li><a href="">고객센터</a></li>
+            </ul>
+            <h1><span class="blind">LOGO</span></h1>
+            <div class="h_right">
+                <div class="h_search">
+                    <form method="get" action="f">
+                        <input type="text" name="search" placeholder="NEW 히더 진정 라인">
+                        <button>
+                            <i class="xi-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <ul class="member_icon">
+                    <li>
+                        <a href=""><i class="xi-cart-o"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="xi-user-o"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="h_bottom">
+            <div class="inner">
+                <ul class="main_menu">
+                    <li><a href="#">전체</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">특가</a></li>
+                    <li><a href="#">브랜드</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="mainVisual">
+            <h2 class="blind">메인슬라이드</h2>
+            <div class="mainSlide">
+                <div class="itm itm01">
+                    <div class="content">
+                        <h3>댕냥이와 늘 함께해요!<strong> 한정판 댕냥이 에디션 50%</strong></h3>
+                        <span class="tit">휴가철 유기 유살동물 예방 캠페인</span>
+                        <span class="time">2023.06.02. 10:00am - 07.03 10:00am</span>
+                        <a href="">자세히 보기<span>></span></a>
+                    </div>
+                </div>
+                <div class="itm itm02">
+                    <div class="content">
+                        <h3>월간 혜택 6월호<strong>Special Benefit</strong></h3>
+                        <span class="tit">쉿, 오직 공식몰에서만 드려요!</span>
+                        <span class="time">2023.06.01. 10:00am - 06.30 23:59pm</span>
+                        <a href="">자세히 보기<span>></span></a>
+                    </div>
+                </div>
+                <div class="itm itm03">
+                    <div class="content">
+                        <h3>피부톤을 살리는<strong>2주 토닝 광채 에센스</strong></h3>
+                        <span class="tit">갈락토미 나이아신 에센스</span>
+                        <span class="time">Galactomy Niacin Essence</span>
+                        <a href="">자세히 보기<span>></span></a>
+                    </div>
+                </div>
+                <div class="itm itm04">
+                    <div class="content">
+                        <h3>지금 쓰기 딱 좋은<strong>수분 톤업 비건 선크림</strong></h3>
+                        <span class="tit">파데프리 선크림 모이스처</span>
+                        <span class="time">Foundation-Free Sun Cream Moisture</span>
+                        <a href="">자세히 보기<span>></span></a>
+                    </div>
+                </div>
+                <div class="itm itm05">
+                    <div class="content">
+                        <h3>예민한 피부를 위한<strong>도톰 촉촉 진정 패드</strong></h3>
+                        <span class="tit">히더 카밍 에센스 패드</span>
+                        <span class="time">HeatherCalming Essence Pad</span>
+                        <a href="">자세히 보기<span>></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scr">
+                <i class="xi-angle-down"></i>
+                <span>scroll down</span>
+            </div>
+        </section>
+        <section class="mainSeller sec">
+            <div class="inner">
+                <div class="sellerTit">
+                    <h2>Best Seller:</h2>
+                    <dlv class="goods_tab_tit">
+                        <ul>
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">클렌징</a></li>
+                            <li><a href="#">스킨 토너 미스트</a></li>
+                            <li><a href="#">앰플 에센스 오일</a></li>
+                            <li><a href="#">로션 크림 아이크림</a></li>
+                            <li><a href="#">마스크 팩</a></li>
+                            <li><a href="#">헤어 바디</a></li>
+                        </ul>
+                    </dlv>
+                </div>
+                <div class="goods_tab_cont">
+                    <div class="goods_tab_box on">
+                        <ul class="all_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/all_01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">[대용량] 퓨어 클렌징 오일 400ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">49,000원</span>
+                                            <span class="item_price">22,670원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/all_02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">갈락토미 나이아신 에센스 50ml+12ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">29,000원</span>
+                                            <span class="item_price">17,400원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/all_03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">비피다 바이옴 콤플렉스 앰플 50ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">35,000원</span>
+                                            <span class="item_price">21,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/all_04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">비피다 바이옴 아쿠아 베리어 크림 80ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale"></span>
+                                            <span class="item_price">24,500원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- 끝 -->
+                    <div class="goods_tab_box">
+                        <ul class="cleansing_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cleansing_01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">[대용량] 퓨어 클렌징 오일 400ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">49,000원</span>
+                                            <span class="item_price">22,670원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cleansing_02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">소다폼 150ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">20,000원</span>
+                                            <span class="item_price">14,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cleansing_03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">블랙헤드 퓨어 클렌징 오일 킬패드 50매</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">20,000원</span>
+                                            <span class="item_price">14,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cleansing_04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href=""> 퓨어 클렌징 오일 400ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale"></span>
+                                            <span class="item_price">24,500원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- 끝 -->
+                    <div class="goods_tab_box">
+                        <ul class="base01_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/skin_01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">[대용량] 비피다 바이옴 앰플 토너 500ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">30,000원</span>
+                                            <span class="item_price">15,120원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/skin_02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">갈락토미 클리어스킨 패드 60매</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">22,000원</span>
+                                            <span class="item_price">15,400원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/skin_03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">갈락토미 클리어스킨 토너 210ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">29,000원</span>
+                                            <span class="item_price">20,300원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/skin_04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">히더 카밍 에센스 패드 60매</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">28,000원</span>
+                                            <span class="item_price">16,800원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/skin_05.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">비피다 시카 허브 토너 210ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">19,000원</span>
+                                            <span class="item_price">11,400원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- 끝 -->
+                    <div class="goods_tab_box">
+                        <ul class="base02_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/ampoule01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">갈락토미 나이아신 에센스 50ml+12ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">29,000원</span>
+                                            <span class="item_price">17,400원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/ampoule02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">비피다 바이옴 콤플렉스 앰플 50ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">35,000원</span>
+                                            <span class="item_price">21,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/ampoule03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">V콜라겐 하트핏 앰플 50ml</a></strong>
+                                        <div class="item_money_box"> <span class="item_sale">
+                                            </span>
+                                            <span class="item_price">35,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/ampoule04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">히더 카밍 에센스 50ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">32,000원</span>
+                                            <span class="item_price">19,200원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/skin_05.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">아워 비건 어성초 98 시카 세럼100ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale"></span>
+                                            <span class="item_price">20000원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- 끝 -->
+                    <div class="goods_tab_box">
+                        <ul class="base03_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cream_01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">비피다 바이옴 아쿠아 베리어 크림 80ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_price">24,500원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cream_02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">판테토인 크림 80ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">42,000원</span>
+                                            <span class="item_price">29,400원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cream_03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">갈락토미 모이스처 로션 100ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">20,000원</span>
+                                            <span class="item_price">14,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cream_04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">히더 카밍 에센스 50ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">35,000원</span>
+                                            <span class="item_price">24,500원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/cream_05.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">V콜라겐 하트핏 크림 50ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">38,000원</span>
+                                            <span class="item_price">26,600원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- 끝 -->
+                    <div class="goods_tab_box">
+                        <ul class="mask_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/mask_01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">갈락토미 엔자임 필링젤 75ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">12,000원</span>
+                                            <span class="item_price">10,000원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/mask_02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">비피다 바이옴 앰플 마스크</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_price">3,000원</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/mask_03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">화이트닝 소스 앰플 마스크</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_price">5,000원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/mask_04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">땡스베리 다즐링 티 마스크 시트 30매</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">24,000원</span>
+                                            <span class="item_price">19,200원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/mask_05.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">허브시카팩75ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_price">20,000원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- 끝 -->
+                    <div class="goods_tab_box">
+                        <ul class="body_item">
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/hair_01.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">바이옥실 안티 헤어로스 샴푸 480ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">33,000원</span>
+                                            <span class="item_price">23,100원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/hair_02.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">바이옥실 안티 헤어로스 트리트먼트 200ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">28,000원</span>
+                                            <span class="item_price">19,600원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/hair_03.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">허브그린 샴푸 1000ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">35,000원</span>
+                                            <span class="item_price">24,500원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/hair_04.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">리스칼프 씨크닝 헤어 샴푸 500ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale">25,000원</span>
+                                            <span class="item_price">12,500원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item_cont">
+                                    <div class="item_photo_box">
+                                        <a href="">
+                                            <img src="./image/hair_05.png">
+                                        </a>
+                                    </div>
+                                    <div class="item_info_cont">
+                                        <strong class="item_name"><a href="">바닐라부티크 허그 퍼퓸 샴푸 500ml</a></strong>
+                                        <div class="item_money_box">
+                                            <span class="item_sale"></span>
+                                            <span class="item_price">21,000원</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- 끝 -->
+                </div>
+            </div>
+        </section>
+        <section class="mainNews sec">
+            <div class="inner">
+                <div class="news_tit">
+                    <h2>요즘 날씨에 딱 맞는 비건 선케어 <span class="date">June 2023</span></h2>
+
+                </div>
+                <div class="news_cont">
+                    <div class="n_left">
+                        <a href=""><img src="./image/news01.jpg"></a>
+                        <h3>파데 한 듯 안 한 듯 촉촉하게 수분 톤업</h3>
+                        <p>파데프리 선크림 모이스처</p>
+                    </div>
+                    <div class="n_right">
+                        <div class="r_top">
+                            <div class="r_txt"><span>
+                                    #비건선크림<br />
+                                    #파데프리
+                                </span>
+                                <strong>
+                                    가볍고 보송하게<br />
+                                    선크림 하나로 내추럴 톤업
+                                </strong>
+                                <p>파데프리 선크림</p>
+                            </div>
+                            <div class="r_img">
+                                <img src="./image/news02.jpg">
+                            </div>
+                        </div>
+                        <div class="r_bottom">
+                            <div class="r_txt">
+                                <span>
+                                    #비건진정<br />
+                                    #무기자차
+                                </span>
+                                <strong>
+                                    피부엔 순하지만<br />
+                                    자외선 차단은 빈틈없이
+                                </strong>
+                                <p>판테카밍 선크림</p>
+                            </div>
+                            <div class="r_img">
+                                <img src="./image/news03.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainBanner">
+            <ul class="banner">
+                <li><a href="">
+                        <img src="./image/subslide01.jpg">
+                    </a></li>
+                <li><a href="">
+                        <img src="./image/subslide02.jpg">
+                    </a></li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer">
+        <ul class="f_top">
+            <li><a href="#">1:1문의</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">자주묻는질문</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">위치기반</a></li>
+            <li><a href="#">서비스이용약관</a></li>
+        </ul>
+        <ul class="f_info">
+            <li>(주)마녀공장</li>
+            <li>대표 :유근직</li>
+            <li>공장사업자등록번호 :108-86-00365</li>
+            <li>통신판매업신고번호 :제2022-서울강서-3344호</li>
+            <li>주소 :서울특별시 강서구 공항대로 518 </li>
+        </ul>
+        <p>&copy;MANYOFACTORY ALL RIGHTS RESERVED.</p>
+    </footer>
+</div>
+
+<body>
+
+</body>
+
+</html>
